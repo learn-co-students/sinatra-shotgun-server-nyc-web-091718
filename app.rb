@@ -9,4 +9,8 @@ class App < Sinatra::Base
   "Welcome to your app!!!! I BUILT THIS!"
   end
 
+  get '/' do
+    "Hello, World!"
+  end
+
 end
